@@ -85,14 +85,26 @@ tensorboard --logdir=.log
 ```
 
 ## Citing
+preprint (arXiv)
 ```
-@misc{eguchi2024clusterhaptictexturedatabase,
-      title={Cluster Haptic Texture Database: Haptic Texture Database with Variety in Velocity and Direction of Sliding Contacts}, 
-      author={Michikuni Eguchi and Madoka Ito and Tomohiro Hayase and Yuichi Hiroi and Takefumi Hiraki},
-      year={2024},
+@misc{eguchi2025clusterhaptictexturedatabase,
+      title={Cluster Haptic Texture Database: Haptic Texture Database with Varied Velocity-Direction Sliding Contacts}, 
+      author={Michikuni Eguchi and Tomohiro Hayase and Yuichi Hiroi and Takefumi Hiraki},
+      year={2025},
       eprint={2407.16206},
       archivePrefix={arXiv},
       primaryClass={cs.HC},
       url={https://arxiv.org/abs/2407.16206}, 
+}
+```
+
+conference paper
+```
+@inproceedings{eguchi2025whc_wip,
+  title={Cluster Haptic Texture Database: Haptic Texture Database with Controlled Sliding-Contact Interactions},
+  author={Michikuni Eguchi and Yuichi Hiroi and Tomohiro Hayase and Takefumi Hiraki},
+  booktitle={2025 IEEE World Haptics Conference Work in Progress (WHC WiP)},
+  year={2025},
+  organization={IEEE}
 }
 ```
