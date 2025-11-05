@@ -13,7 +13,7 @@ texture_dataset/
     │
     └── crop_images/ (for evaluation of texture classification)
 │
-└── sensor_data/
+├── sensor_data/
     ├── audio/ (after noise canceling)
     │
     ├── raw_audio/
@@ -23,6 +23,10 @@ texture_dataset/
     ├── force/
     │
     └── position/
+│
+├── texture_list.xlsx (List the names of the textures and their friction coefficients)
+│
+└── README.MD
 ```
 
 ## images_scan_area file naming rule
@@ -112,3 +116,19 @@ time,X,Y
 0.01994,0.0,45.0
 ```
 
+## Hardware configuration
+### 3-axis machine : Ender S1
+- The position accuracy is ±0.05 mm and the control velocity accuracy is ±0.2 mm/s.
+- This machine can control the pressing force when combined with a load cell. Accuracy is approximately ±0.05N.
+
+### Microphone : Earthworks M30 
+- The frequency response of this is extremely flat, from 10 Hz to 30 kHz, with a sensitivity of 39.5 mV/Pa.
+
+### Accelerometer : STMicroelectronics IIS3DWB
+- This accelerometer have a measurement range of 16 g and an accuracy of 75 µg/√Hz.
+
+### Load Cell : Sensor and Control SC616C-1kg
+- The load cell has a measuring range of 0.005 N to 9.8 N and an accuracy of 0.005 N.
+
+### PC : Lenovo ThinkPad X13 Gen 2 (Ubuntu 22.04)
+- The time accuracy is ±1㎲
