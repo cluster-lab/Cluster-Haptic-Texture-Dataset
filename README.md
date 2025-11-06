@@ -16,17 +16,17 @@ This repository contains the dataset and experiment code.
 ## Installation
 ### 1. git clone
 ```
-git clone git@github.com:cluster-lab/Cluster-Haptic-Texture-Database.git
+git clone git@github.com:cluster-lab/Cluster-Haptic-Texture-Dataset.git
 ```
 ### 2. build docker image
 ```
-cd Cluster-Haptic-Texture-Database
+cd Cluster-Haptic-Texture-Dataset
 ./docker_build.sh
 ```
 ### 3. unzip [dataset](https://doi.org/10.6084/m9.figshare.29438288) and place in this directory
 directory structure
 ```
-Cluster-Haptic-Texture-Database
+Cluster-Haptic-Texture-Dataset
 |
 |--texture_dataset
    |
@@ -88,8 +88,8 @@ tensorboard --logdir=.log
 ## Citing
 preprint (arXiv)
 ```
-@misc{eguchi2025clusterhaptictexturedatabase,
-      title={Cluster Haptic Texture Database: Haptic Texture Database with Varied Velocity-Direction Sliding Contacts}, 
+@misc{eguchi2025clusterhaptictexturedataset,
+      title={Cluster Haptic Texture Dataset: Haptic Texture Dataset with Varied Velocity-Direction Sliding Contacts}, 
       author={Michikuni Eguchi and Tomohiro Hayase and Yuichi Hiroi and Takefumi Hiraki},
       year={2025},
       eprint={2407.16206},
